@@ -1,9 +1,10 @@
 import streamlit as st
 from forms.contact import contact_form
 
-@st.dialog("Contact Me")
+# Remove @st.dialog("Contact Me")
 def show_contact_form():
-    contact_form()
+    with st.expander("📧 Contact Me", expanded=True):
+        contact_form()  # Assuming this renders the contact form
 
 # Function to encode the image to Base64
 import base64
@@ -38,8 +39,8 @@ with col1:
 with col2:
     st.title("Mahnoor Naveed", anchor=False)
     st.write("Frontend Developer | Creating sleek and responsive web experiences")
-    if st.button(" 📧 Contact Me"):
-        show_contact_form()
+    if st.button("📧 Contact Me"):
+        show_contact_form()  # This will open the expander with the form
 
 # Experience and Qualification 
 st.write("\n")
