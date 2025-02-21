@@ -1,0 +1,15 @@
+[theme]
+# Professional and sleek primary color for elements (e.g., buttons, highlights)
+primaryColor = "#ff9800"  # Warm amber for a premium touch
+
+# Dark background for the main content area (Elegant and easy on the eyes)
+backgroundColor = "#121212"  # True dark mode for a modern UI
+
+# Sidebar background color (Slightly lighter for contrast)
+secondaryBackgroundColor = "#1e1e1e"  # Dark gray for a professional look
+
+# Text color for improved readability
+textColor = "#ffffff"  # White text for strong contrast
+
+# Font settings
+font = "sans serif"  # Clean, modern, and readable font
